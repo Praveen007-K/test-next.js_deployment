@@ -1,9 +1,6 @@
 "use client";
 
-import { log } from "console";
-
 export default function AboutPage() {
-    console.log("This is Server Side Rendering")
     return (
         <main className="p-10">
             <div className="bg-blue-500 p-8 rounded-lg shadow-lg text-white max-w-md mx-auto">

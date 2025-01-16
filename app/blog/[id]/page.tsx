@@ -7,6 +7,7 @@ interface BlogPostProps {
 
 export default async function BlogPost({ params }: BlogPostProps) {
     const post = getBlogPostById(Number((await params).id)); // Fetch the blog post by ID
+    console.log("This is Server Side Rendering")
 
     if (!post) {
         return <h1>Post Not Found</h1>;

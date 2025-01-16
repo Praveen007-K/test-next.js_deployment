@@ -7,7 +7,7 @@ module.exports = {
     production : {
       key : 'key.pem',
       user : 'ubuntu',
-      host : '3.110.28.49',
+      host : '3.110.104.6',
       ref  : 'origin/master',
       repo : 'git@github.com:Praveen007-K/test-next.js_deployment.git',
       path : '/home/ubuntu',

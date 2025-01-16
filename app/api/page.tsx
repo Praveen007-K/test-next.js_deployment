@@ -1,5 +1,6 @@
 export default async function Page() {
     const data = await fetch('https://api.vercel.app/blog')
+    console.log("This is Caching")
     const posts = await data.json()
     return (
         <ul>
